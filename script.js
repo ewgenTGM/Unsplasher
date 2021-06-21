@@ -20,6 +20,7 @@ function generateItems(res) {
     const aElement = document.createElement('a');
     aElement.href = el.urls.full;
     aElement.target = '_blank';
+    aElement.classList.add('section__link');
     aElement.insertAdjacentElement('beforeend', imageElement);
     element.insertAdjacentElement('afterbegin', aElement);
     section.insertAdjacentElement('beforeend', element);

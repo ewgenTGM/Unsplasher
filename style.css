@@ -51,6 +51,10 @@ body {
     border-radius: 10px;
 }
 
+.section__link {
+    display: flex;
+}
+
 .section__image {
     margin: 0 auto;
     width: 330px;
